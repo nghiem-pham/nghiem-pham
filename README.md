@@ -5,8 +5,6 @@
 <p align="center">
   <a href="https://linkedin.com/in/nghiempham388"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:nghpham.dev@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://github.com/nghiem-pham"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-</p>
 
 ---
 
@@ -136,24 +134,8 @@
     </td>
   </tr>
 </table>
-
----
-
-### GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nghiem-pham&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117" width="48%" alt="GitHub Stats"/>
-  <img src="https://streak-stats.demolab.com?user=nghiem-pham&theme=tokyonight&hide_border=true&background=0D1117" width="48%" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nghiem-pham&layout=compact&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117" width="40%" alt="Top Languages"/>
-</p>
-
 ---
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=nghiem-pham&style=for-the-badge&color=6C63FF" alt="Profile Views"/>
 </p>
-
-<p align="center"><i>"First, solve the problem. Then, write the code."</i> — John Johnson</p>
