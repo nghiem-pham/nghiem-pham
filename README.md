@@ -13,11 +13,10 @@
 ```json
 {
   "name": "Nghiem Pham",
-  "role": "Full-Stack Developer",
-  "education": "Knox College — B.S. Computer Science (3.89 GPA)",
+  "role": "Backend Developer",
+  "education": "Knox College — B.S. Computer Science (3.9 GPA)",
   "honors": "Dean's List",
   "looking_for": "Internship Opportunities",
-  "fun_fact": "I also tutor math at Knox's Center for Teaching & Learning"
 }
 ```
 
