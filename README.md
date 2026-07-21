@@ -1,10 +1,11 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=30&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hey+there!+I'm+Nghiem+Pham+%F0%9F%91%8B;Full-Stack+Developer;CS+Student+%40+Knox+College" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=30&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hey+there!+I'm+Nghiem+Pham+%F0%9F%91%8B;Backend+%26+Systems+Developer;CS+%26+Math+Student+%40+Knox+College" alt="Typing SVG" />
 </h1>
 
 <p align="center">
   <a href="https://linkedin.com/in/nghiempham388"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:nghpham.dev@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+</p>
 
 ---
 
@@ -13,15 +14,15 @@
 ```json
 {
   "name": "Nghiem Pham",
-  "role": "Backend Developer",
-  "education": "Knox College — B.S. Computer Science (3.9 GPA)",
-  "honors": "Dean's List",
-  "looking_for": "Internship Opportunities",
+  "role": "Backend & Systems Developer",
+  "education": "Knox College — B.S. Computer Science & Mathematics (3.9 GPA)",
+  "honors": ["Dean's List", "Carr Prize in Mathematics"],
+  "looking_for": "Internship Opportunities"
 }
 ```
 
 - Building full-stack apps with **React**, **Spring Boot**, **Go**, and **PostgreSQL**
-- Exploring **real-time streaming**, **concurrent systems**, and **AI/ML**
+- Writing GPU kernels in **CUDA C++** and exploring **concurrent systems**, **real-time streaming**, and **AI/ML**
 - Currently open to **internship opportunities** and exciting collaborations
 
 ---
@@ -70,6 +71,15 @@
     </td>
   </tr>
   <tr>
+    <td align="center"><b>Systems / ML</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
     <td align="center"><b>Tools</b></td>
     <td>
       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
@@ -79,14 +89,6 @@
       <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
     </td>
   </tr>
-  <tr>
-    <td align="center"><b>ML / AI</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white"/>
-    </td>
-  </tr>
 </table>
 
 ---
@@ -94,6 +96,22 @@
 ### Featured Projects
 
 <table>
+  <tr>
+    <td colspan="2">
+      <h3 align="center">CUDA Vector Search Engine</h3>
+      <p align="center">GPU-accelerated vector similarity search engine built from scratch in CUDA C++, with a semantic search demo on real text embeddings</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/CUDA_C++-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Thrust-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
+        <img src="https://img.shields.io/badge/pybind11-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      </p>
+      <ul>
+        <li>Three kernels benchmarked: global memory baseline, shared-memory tiled, and coalesced column-major layout</li>
+        <li><b>43x speedup</b> over CPU baseline at N=1M (D=384) with <b>100% Recall@10</b>, benchmarked against FAISS on an RTX 3060</li>
+        <li>Parallel top-K selection via Thrust; C++ host interface with runtime kernel switching for side-by-side comparison</li>
+      </ul>
+    </td>
+  </tr>
   <tr>
     <td width="50%">
       <h3 align="center">SpinNode</h3>
@@ -124,7 +142,7 @@
         <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black"/>
         <img src="https://img.shields.io/badge/nginx--rtmp-009639?style=flat-square&logo=nginx&logoColor=white"/>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-      </ul>
+      </p>
       <ul>
         <li>Real-time pipeline: WebSocket → FFmpeg → nginx-rtmp → HLS</li>
         <li>Browser broadcasting via MediaRecorder + OBS/Streamlabs RTMP ingest</li>
